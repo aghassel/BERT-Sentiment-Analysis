@@ -1,2 +1,2 @@
-# BERT-Sentiment-Analysis
+#Sentiment-Analysis
 ELEC825 Final Project
