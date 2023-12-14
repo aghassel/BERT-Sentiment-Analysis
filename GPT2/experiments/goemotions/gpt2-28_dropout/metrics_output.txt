@@ -1,0 +1,47 @@
+Accuracy: 0.4605
+Precision: 0.1844
+Recall: 0.3594
+F1 Score: 0.1970
+
+Classification Report:
+
+/home/23cf17/miniconda3/envs/elec825/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/23cf17/miniconda3/envs/elec825/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/23cf17/miniconda3/envs/elec825/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                precision    recall  f1-score   support
+
+    admiration       0.50      0.52      0.51       429
+     amusement       0.53      0.47      0.50       223
+         anger       0.33      0.15      0.21       171
+     annoyance       0.22      0.06      0.09       251
+      approval       0.44      0.14      0.21       284
+        caring       0.22      0.06      0.09       107
+     confusion       0.43      0.09      0.14       117
+     curiosity       0.41      0.39      0.40       233
+        desire       0.67      0.06      0.11        70
+disappointment       0.00      0.00      0.00       112
+   disapproval       0.25      0.05      0.09       233
+       disgust       1.00      0.02      0.04        96
+ embarrassment       0.00      0.00      0.00        29
+    excitement       0.57      0.05      0.10        75
+          fear       1.00      0.01      0.03        70
+     gratitude       0.72      0.77      0.75       305
+         grief       0.00      0.00      0.00         5
+           joy       0.32      0.18      0.23       118
+          love       0.58      0.64      0.61       203
+   nervousness       0.00      0.00      0.00        19
+      optimism       0.33      0.21      0.26       146
+         pride       0.00      0.00      0.00        13
+   realization       0.00      0.00      0.00       121
+        relief       0.00      0.00      0.00         9
+       remorse       0.54      0.27      0.36        48
+       sadness       0.30      0.10      0.15       128
+      surprise       0.25      0.04      0.06       109
+       neutral       0.44      0.89      0.59      1703
+
+      accuracy                           0.46      5427
+     macro avg       0.36      0.18      0.20      5427
+  weighted avg       0.43      0.46      0.38      5427

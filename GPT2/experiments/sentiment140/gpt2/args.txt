@@ -1,0 +1,1 @@
+{'batch_size': 64, 'epochs': 10, 'longest_sequence': 40, 'learning_rate': 1e-05, 'device': None, 'dataset': 'sentiment140', 'model': 'gpt2', 'output_directory': 'experiments/sentiment140/gpt2/', 'finetune': False, 'dropout': False}

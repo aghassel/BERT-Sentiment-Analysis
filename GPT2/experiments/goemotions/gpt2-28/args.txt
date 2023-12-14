@@ -1,0 +1,1 @@
+{'batch_size': 64, 'epochs': 40, 'longest_sequence': 40, 'learning_rate': 1e-05, 'device': None, 'dataset': 'goemotions', 'model': 'gpt2', 'output_directory': 'experiments/goemotions/gpt2-28/', 'finetune': False, 'dropout': False}
